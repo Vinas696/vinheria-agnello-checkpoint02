@@ -42,8 +42,8 @@ _vinharia-agnello_/
 
 # Link do projeto publicado:
 
-- GitHub Pages: https://vinas696.github.io/_vinharia-agnello_/
-- Repositório: https://github.com/Vinas696/_vinharia-agnello_.git
+- GitHub Pages: https://vinas696.github.io/vinheria-agnello-checkpoint02/
+- Repositório: https://github.com/Vinas696/vinheria-agnello-checkpoint02.git
 
 # Informações adicionais que eu encontrei em outras fontes:
 - coddy: https://coddy.tech/pt
