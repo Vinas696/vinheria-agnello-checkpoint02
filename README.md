@@ -35,7 +35,7 @@ _vinharia-agnello_/
 
 -script.js: script que utiliza `prompt()`, `alert()` e `console.log()`, além de funções (`function`), estruturas de repetição (`while`) e estruturas condicionais (`if` e `else`). O código respeita o escopo das variáveis, onde sua finalidade é realizar o cadastro, a validação, a manipulação e a apresentação de informações sobre os vinhos;
 
-# Integrante:
+# Integrantes:
 
 - Vinicius Pereira Sabino
 - Aline da Silva Correia
