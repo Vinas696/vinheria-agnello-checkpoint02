@@ -58,7 +58,7 @@ while (true){
     cadastro += 1
     
     var continuar = prompt("Deseja continuar cadastrando mais vinhos?")
-    if (continuar == "não") || (continuar == "Não") || (continuar == "NÃO")){
+    if ((continuar == "não") || (continuar == "Não") || (continuar == "NÃO")){
         break
     }
 }
