@@ -2,9 +2,17 @@ var estoque_baixo = 0
 var cadastro = 0
 var vinho_antigo = null
 
-// function validacao(){
-    
-// }
+function validacao_nome(nome){
+    while ((!isNaN(nome)) || (nome == "") || (nome == null)){
+        nome = prompt("Nome inválido. Digite novamente: ")
+    }   
+}
+
+function validacao_numero(num){
+    while ((isNaN(num)) || (num == "") || (num == null)) {
+        num = prompt("Número inválido. Digite novamente: ")
+    }
+}
 
 function verificar_estoque(qnt){
     if (qnt < 5){
@@ -30,11 +38,16 @@ function mostrar_dados(){
 
 while (true){
     var vinho = prompt("Digite o nome do vinho: ")
+    validacao_nome(vinho)
     
     var qnt = prompt("Digite sua quantidade: ")
+    validacao_numero(qnt)
+    
     verificar_estoque(qnt)
 
     var safra = prompt("Digite o ano do vinho: ")
+    validacao_numero(safra)
+    
     tipo_vinho(safra)
 
     // utilizei uma lógica parecida com a de Python, porém em vez de None utilizei null

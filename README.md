@@ -33,7 +33,7 @@ _vinharia-agnello_/
 
 -style.css: folha de estilos utilizado no index.html;
 
--script.js: script utilizando `prompt()`, `alert()` e `console.log()` para registro e coleta de informações.  
+-script.js: script que utiliza `prompt()`, `alert()` e `console.log()`, além de funções (`function`), estruturas de repetição (`while`) e estruturas condicionais (`if` e `else`). O código respeita o escopo das variáveis, onde sua finalidade é realizar o cadastro, a validação, a manipulação e a apresentação de informações sobre os vinhos;
 
 # Integrante:
 
